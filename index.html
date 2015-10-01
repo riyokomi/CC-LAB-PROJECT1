@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+  function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(40.738602,-73.873326),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+  var marker=new google.maps.Marker({
+    position: new google.maps.LatLng(40.738602,-73.873326),
+    animation:google.maps.Animation.BOUNCE
+  });
+
+  marker.setMap(map);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+    <meta name="description", content="">
+    <meta name="author", content="">
+    <meta name="viewpoint", content="width-device-width,initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+	<title>Rescue Me Pls</title>
+
+</head>
+
+
+<body>
+
+
+
+  <header>
+
+<div id='menu'>
+<ul>
+   <li><a href='index.html'><span>Home</span></a></li>
+   <li class='active has-sub'><a href=''><span>Animals</span></a>
+      <ul>
+      <center>
+         <li class='has-sub'><a href='#chicken'><span>Dogs</span></a>
+         <li class='has-sub'><a href='#duck'><span>Cats</span></a>
+           </li>
+         <li class='has-sub'><a href='#pig'><span>Other Animals</span></a>
+         </li>
+         </center>
+      </ul>
+   </li>
+   <li class='active has-sub'><a href=''><span>About</span></a>
+      <ul>
+        <center>
+         <li class='has-sub'><a href='#h2'><span>The Website</span></a>
+           </li>
+         <li class='has-sub'><a href='#h3'><span>Sunny Animal Shelter</span></a>
+         </li>
+         </center>
+      </ul>
+   </li>
+   
+   <li class='last'><a href='#h4'><span>Contact</span></a></li>
+</ul>
+</div>
+    </header>
+
+<section>
+  <h1>Sunny Animal Shelter</h1>
+   
+     <center>
+     <figure>
+      <img src="image/3.png" alt="PinkHeart" width="20" height="20">
+      </figure>
+      </center>
+
+  <center>
+   <p>Dogs and cats have a reputation for being "man's best friends" for excellent reasons. They are wonderful companions. Many breeds, in addition to being affectionate, devoted members of the family, are useful workers and guardians. Help to rescue, donate, volunteer, foster, adopt, and be proud to have their greatness by your side.</p>
+   </center>
+</section>
+
+<!--<div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image/2.jpg">-->  
+</div>
+
+
+<div id="chicken">
+  
+    <div class="pics">
+  <ul> 
+  <li><a href="image/a copy.jpg" data-lightbox="image a" data-title="Chance<br>3 month<br>mixed/interbreed"><img src="image/a copy.jpg" alt="a" width="250" height="320"></a></li>
+
+  <li><a href="image/b copy.jpg" data-lightbox="image a" data-title="Mini<br>4 month<br>mixed/interbreed"><img src="image/b copy.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image/c copy.jpg" data-lightbox="image a" data-title="Rocky<br>3 month<br>mixed/interbreed"><img src="image/c copy.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image/d copy.jpg" data-lightbox="image a" data-title="Max<br>8 month<br>mixed/interbreed"><img src="image/d copy.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image/e copy.jpg" data-lightbox="image a" data-title="Buddy<br>5 month<br>mixed/interbreed"><img src="image/e copy.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image/f copy.jpg" data-lightbox="image a" data-title="Charlie<br>7 month<br>mixed/interbreed"><img src="image/f copy.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image/g copy.jpg" data-lightbox="image a" data-title="Abby<br>1 year<br>mixed/interbreed"><img src="image/g copy.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image/h copy.jpg" data-lightbox="image a" data-title="Murphy<br>3 month<br>mixed/interbreed"><img src="image/h copy.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image/i copy.jpg" data-lightbox="image a" data-title="Lucky<br>4 month<br>mixed/interbreed"><img src="image/i copy.jpg" alt="b" width="250" height="320"></a></li>
+  </ul>
+     </div>
+
+</div>
+
+
+
+<div id="h2">
+   <h2>About this Website</h2>
+
+   <center>
+   <p>This website is made for people who wants to adopt animals from Sunny Animal Shelter.</p>
+   </center>
+</div>
+
+
+<div id="duck">
+  
+    <div class="pics2">
+  <ul> 
+  <li><a href="image2/1.jpg" data-lightbox="image a" data-title="Chance<br>3 month<br>mixed/interbreed"><img src="image2/1.jpg" alt="a" width="250" height="320"></a></li>
+
+  <li><a href="image2/2.jpg" data-lightbox="image a" data-title="Mini<br>4 month<br>mixed/interbreed"><img src="image2/2.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image2/3.jpg" data-lightbox="image a" data-title="Rocky<br>3 month<br>mixed/interbreed"><img src="image2/3.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image2/4.jpg" data-lightbox="image a" data-title="Max<br>8 month<br>mixed/interbreed"><img src="image2/4.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image2/5.jpg" data-lightbox="image a" data-title="Buddy<br>5 month<br>mixed/interbreed"><img src="image2/5.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image2/6.jpg" data-lightbox="image a" data-title="Charlie<br>7 month<br>mixed/interbreed"><img src="image2/6.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image2/7.jpg" data-lightbox="image a" data-title="Abby<br>1 year<br>mixed/interbreed"><img src="image2/7.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image2/8.jpg" data-lightbox="image a" data-title="Murphy<br>3 month<br>mixed/interbreed"><img src="image2/8.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image2/9.jpg" data-lightbox="image a" data-title="Lucky<br>4 month<br>mixed/interbreed"><img src="image2/9.jpg" alt="b" width="250" height="320"></a></li>
+  </ul>
+     </div>
+
+</div>
+
+
+<div id="h3">
+  <h3>About Sunny Animal Shelter</h3>
+
+   <center>
+   <p>We have hundreds of animals available for adoption every day. If you are looking to add an awesome dog, cat or rabbit to your family, ACC is the right place to find your new furry friend. We have been matching pets with people for over 17 years, and when you visit one of our Shelters, our staff and volunteers will work with you to try to find your perfect loyal companion. Before adopting, we suggest you do your research on pet care and the right animal for your family, as this is a long-term decision. ACC has a wide variety of flyers available for your review and education.If you are looking for a particular breed, please be sure to fill out a Breed Request Form, Cat or Dog, and we will contact you by e-mail when your requested pure-bred dog or cat comes to one of our Shelters.Please note that we cannot guarantee that we will find what you are looking for since special breeds do get adopted very quickly at our Care Centers.</p>
+   </center>
+</div>
+
+
+<div id="pig">
+  
+    <div class="pics3">
+  <ul> 
+  <li><a href="image3/1.jpg" data-lightbox="image a" data-title="Chance<br>3 month<br>mixed/interbreed"><img src="image3/1.jpg" alt="a" width="250" height="320"></a></li>
+
+  <li><a href="image3/2.jpg" data-lightbox="image a" data-title="Mini<br>4 month<br>mixed/interbreed"><img src="image3/2.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image3/3.jpg" data-lightbox="image a" data-title="Rocky<br>3 month<br>mixed/interbreed"><img src="image3/3.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image3/4.jpg" data-lightbox="image a" data-title="Max<br>8 month<br>mixed/interbreed"><img src="image3/4.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image3/5.jpg" data-lightbox="image a" data-title="Buddy<br>5 month<br>mixed/interbreed"><img src="image3/5.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image3/6.jpg" data-lightbox="image a" data-title="Charlie<br>7 month<br>mixed/interbreed"><img src="image3/6.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image3/7.jpg" data-lightbox="image a" data-title="Abby<br>1 year<br>mixed/interbreed"><img src="image3/7.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image3/8.jpg" data-lightbox="image a" data-title="Murphy<br>3 month<br>mixed/interbreed"><img src="image3/8.jpg" alt="b" width="250" height="320"></a></li>
+
+  <li><a href="image3/9.jpg" data-lightbox="image a" data-title="Lucky<br>4 month<br>mixed/interbreed"><img src="image3/9.jpg" alt="b" width="250" height="320"></a></li>
+  </ul>
+     </div>
+
+</div>
+
+<div id="h4">
+  <h4>Contact Information</h4>
+
+   <center>
+   <p>Sunny Animal Shelter<br>phone#:315-262-4837<br>email:sunnyanimalshelter@gmail.com<br>adress:5217 90th St., Elmhurst, NY 11373</p>
+   </center>
+</div>
+
+
+<center>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+</center>
+
+
+<!--<div id="form">
+<form action="" method="POST">
+    <fieldset>
+      <legend>Add a Comment</legend>
+      <label for="handle">Name</label>
+      <input type="text" name="handle" id="handle" value="" maxlength="64" />
+      <br /><br />
+      <label for="comment">Comment</label>
+      <textarea rows="6" cols="50" name="comment" id="comment"></textarea>
+      <br /><br />
+      <input type="submit" value="Publish" />
+    </fieldset>
+</form>
+</div>-->
+
+
+
+<div id="top">
+<a href="#menu" class="cd-top"><img src="image/hahahahaha.png" width="100" height="100"></a>
+</div>
+
+  <footer>
+     <div class="container">
+        <p>
+          Copyright &copy; 2015 {SunyiningYang}
+        </p>
+     </div>
+  </footer>
+
+
+   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script src="/path/to/parallax.js"></script>-->
+   <!--<script src="js/jquery-2.1.4.min.js"></script>-->
+   <script src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/lightbox.js"></script>
+
+
+</body>
+</html>
+
+
+<!--http://www.w3schools.com/googleapi/tryit.asp?filename=tryhtml_map_overlays_animate-->
